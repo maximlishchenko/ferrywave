@@ -25,7 +25,7 @@ class TripController {
             const trip = await TripService.getOneById(req.params.id);
             return res.json(trip);
         } catch (e) {
-            res.status(500).json(e);
+            res.status(500).json(e); // catch error
         }
     }
 
