@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+h1 {
+  color: #243953;
+}
+
+
+.search {
+  padding: 5% 6%; 
+  background: #98C1D9;
+  color: #3d5a80;
+}
+
+.ferryImage {
+  min-width: 30%;
+  width: 40%;
+  height: 40%;
+
+
+}
